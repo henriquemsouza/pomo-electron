@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+
+# npm lock as we're using yarn
+package-lock.json
+
+# ignore output.csv 
+migration/output
+
+# editors
+/.idea
+.vscode
+
+
+electron-api.json
+electron.d.ts
+
+bower_components
+
+#files
+*.tgz
+*.log
