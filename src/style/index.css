@@ -1,63 +1,11 @@
-#container{
-    border:1px solid #333;
-    border-radius :20px;
-    width:400px;
-    padding:20px;
-    text-align:center;
-    background: #d4c3c3;
-    margin-top: 1;
-    margin-right: 1px;
-    margin-bottom: 1;
-    margin-left: 1px;
-  }
-  
-  #timer{ 
-    background : #333;
-    color:#f00; 
-    font-size:50px; 
-    margin:10px auto;
-    border : 5px solid #d4c3c3;
-    border-radius:50%;
-    width:200px;
-    height:200px;
-    overflow:hidden;
-    position:relative;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor:default;
-  }
-  
-  #time{
-    margin-top:60px;
-    z-index : 1;
-    position:relative;
-  }
-  
-  #filler{
-    background : #e9edf5;
-    height: 0px;
-    width: 200px;
-    position:absolute;
-    bottom:0;
-  }
-  
-  #buttons button { 
-    border:none; 
-    padding:5px; 
-    width:90px; 
-    margin:10px auto;
-    font-size:14px;
-    height : 50px;
-    border-radius : 50px;
-  }
+.etabs-tab {
+  height: auto !important;
+}
 
-  #pomodoro-app{
-    width:400px;
-    margin-top: 1;
-    margin-right: 1px;
-    margin-bottom: 1;
-    margin-left: 1px;
-  }
-  
+.etabs-tabgroup {
+  background-color: #fff !important;
+}
+
+.etabs-views {
+  border-top: none !important;
+}
