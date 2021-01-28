@@ -4,9 +4,9 @@ Simple Electron pomodoro app
 
 ```bash
 # Install dependencies
-npm install
+yarn install
 # Run the app
-npm start
+yarn start
 ```
 
 
