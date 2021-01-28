@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pomo Electron</title>
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <link rel="stylesheet" href="../src/style/index.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/electron-tabs/electron-tabs.css"
+    />
+
+    <link rel="stylesheet" href="../src/style/timer.css" />
+    <script src="../src/js/timer.js"></script>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+  </head>
+
+  <body style="margin: 0">
+    <div style="margin: 0">
+      <div id="pomodoro-app">
+        <div id="container">
+          <div id="timer">
+            <div id="time">
+              <span id="minutes">25</span>
+              <span id="colon">:</span>
+              <span id="seconds">00</span>
+            </div>
+            <div id="filler"></div>
+          </div>
+
+          <div id="buttons">
+            <button type="button" class="btn btn-success" id="work">
+              Start
+            </button>
+            <button type="button" class="btn btn-primary" id="shortBreak">
+              Short Break
+            </button>
+            <button type="button" class="btn btn-warning" id="longBreak">
+              Long Break
+            </button>
+            <button type="button" class="btn btn-danger" id="stop">Stop</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
