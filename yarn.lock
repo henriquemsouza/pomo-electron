@@ -216,10 +216,10 @@ electron-tabs@^0.15.0:
   resolved "https://registry.yarnpkg.com/electron-tabs/-/electron-tabs-0.15.0.tgz"
   integrity sha512-pGW5V+V9X1+b2muKndn7xsce6D89D5j7kt0j/+5nX/gwsIAnZ86axJDriOxVP20f8yN4sQkrYdUana3Wi3Ea0w==
 
-electron@^9.4.1:
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-9.4.1.tgz"
-  integrity sha512-r4CxoVG9Ja7tBtkilWMnBsBGup8G8Z+v7icZmwysHa8/OSr0OrLjrcOF/30BAP7yPE5fz/XTxygnltzW4OTZdw==
+electron@^11.5.0:
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-11.5.0.tgz#f1650543b9d8f2047d3807755bdb120153ed210f"
+  integrity sha512-WjNDd6lGpxyiNjE3LhnFCAk/D9GIj1rU3GSDealVShhkkkPR3Vh4q8ErXGDl1OAO/faomVa10KoFPUN/pLbNxg==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
